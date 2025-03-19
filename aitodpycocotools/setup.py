@@ -22,7 +22,7 @@ setup(name='aitodpycocotools',
       packages=['aitodpycocotools'],
       package_dir={'aitodpycocotools': 'aitodpycocotools'},
       install_requires=[
-          'setuptools>=18.0', 'cython>=0.27.3', 'matplotlib>=2.1.0'
+          'setuptools>=18.0', 'cython>=3', 'matplotlib>=2.1.0'
       ],
       version='12.0.3',
       ext_modules=ext_modules)
